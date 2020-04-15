@@ -20,7 +20,7 @@ class MdnsRepeater < Formula
     <string>#{plist_name}</string>
     <key>ProgramArguments</key>
     <array>
-      <string>#{bin}/mdns-repeater</string>
+      <string>#{prefix}/bin/mdns-repeater</string>
       <string>-f</string>
       <string>lo0</string>
       <string>utun2</string>
